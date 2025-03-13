@@ -46,6 +46,7 @@ public class Library {
             book.borrowBook();
             member.borrowBook(book);
             System.out.println("Book borrowed successfully");
+            System.out.println("INFO: "+member.getMemberName()+" borrowed "+book.getBookName());
         }
         else {
             System.out.println("Book not available OR Member not found");
@@ -60,6 +61,7 @@ public class Library {
             book.returnBook();
             member.returnBook(book);
             System.out.println("Book returned successfully");
+            System.out.println("INFO: "+member.getMemberName()+" returned "+book.getBookName());
         }
         else {
             System.out.println("Book not borrowed OR Member not found");

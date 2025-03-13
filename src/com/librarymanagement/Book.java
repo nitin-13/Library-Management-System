@@ -7,11 +7,11 @@ public class Book  {
     private String author;
     private boolean isBorrowed;
 
-    public Book(String isbn,String bookName,String author, boolean isBorrowed){
+    public Book(String isbn,String bookName,String author){
         this.isbn = isbn;
         this.bookName = bookName;
         this.author = author;
-        this.isBorrowed = isBorrowed;
+        this.isBorrowed = false;
     }
 
 
