@@ -10,10 +10,10 @@
 ├── src/  
 │ ├── com/   
 │ │ └── librarymanagement/      
-│ │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Book.java  
-│ │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Member.java  
-│ │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Library.java  
-│ │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── LibrarySystem.java  
+│ │ ├── Book.java  
+│ │ ├── Member.java  
+│ │ ├── Library.java  
+│ │ ├── LibrarySystem.java  
 ```
 #### Core Classes:
 
